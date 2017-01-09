@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+font-family: "Montserrat", sans-serif;
+}
+
+.navbar-default {
+background-color:#1d1d1d;
+}
+
+.resume {
+height: 50px;
+padding: 25px 0;
+float: right;
+color: white;
+}
+
+.title-name {
+float: left;
+color: white;
+font-size: 24px;
+}
+
+.jebnav {
+background-color: #1a1a1a;
+}
+
+.intro-cover {
+padding: 90px 0;
+margin: 0 0 60px 0;
+color: white;
+background-color: #1824ad;
+height: 350px;
+}
+
+@media (max-width: 768px) {
+.intro-cover {
+padding: 30px 50px 30px 50px;
+height: auto;
+}
+}
+
+.fa {
+float: right;
+color: white;
+padding: 28px 0 0 15px;
+}
+
+.intro-article {
+display: block;
+}
+
+.profile-content {
+margin: 0 0 30px 0;
+display: flex;
+flex-wrap: wrap;
+}
+
+.jeb-pic {
+display: block;
+margin: 0 auto 30px auto;
+border-radius: 50%;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+}
+
+.jeb-update {
+display: block;
+line-height: 100px;
+}
+
+.featured {
+background-color: #f7f7f7;
+padding: 60px 0 60px 0;
+}
+
+.key {
+margin: 0 0 30px 0;
+}
+
+.work {
+padding: 40px 0 30px 0;
+}
+
+.emessage {
+background-color: #f7f7f7;
+}
+
+.jeb-modal {
+display: block;
+margin: 0 auto 30px auto;
+}
+
+.jeb-footer {
+display: block;
+margin: auto;
+}
